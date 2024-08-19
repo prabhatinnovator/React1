@@ -1,0 +1,24 @@
+.NotesGroup{
+    display: flex;
+    /* center */
+    justify-content: center;
+    align-items: center;
+    width: "31vw";
+      padding: 5% 0.9% 4% 5%;
+      
+}
+
+.NotesName{
+    color: #000;
+    font-family: "Roboto",sans-serif;
+    font-size:20px;
+    /* font-size: 1.29188rem; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    letter-spacing: 0.02581rem;
+    /* space */
+    position: relative;
+    left: 5px;
+}

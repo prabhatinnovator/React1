@@ -1,0 +1,101 @@
+.leftSidePannel {
+    background: #fff;
+    font-size: 18px;
+    align-items: center;
+    line-height: 12px;
+    font-weight: 200;
+    font-family: "Roboto",sans-serif;
+    width: 26vw;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+  }
+  
+  .createNotesGroup {
+    font-size: 60px;
+    font-weight: 500;
+    height: 64px;
+    width: 64px;
+    color: #FFF;
+    border-radius: 50%;
+    background-color:#16008B;
+    border: none;
+    bottom: 10px;
+    left: 270px; 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 14;
+    border: none;
+}
+  
+  .center {
+    /* center */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  align-items: center;
+}
+
+.notesGroupSlected {
+  padding: 5% 3% 3% 3%;
+  font-family: "Roboto",sans-serif;
+  width: 22vw;
+  font-weight: 500;
+  height: 2.375rem;
+
+  display: flex;
+  justify-self: start;
+  
+}
+  
+/* media query mobile view */
+@media (max-width: 600px) {
+    .leftSidePannel {
+      width: 100vw;
+      height: 100vh;
+      font-size: 20px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+  
+    .createNotesGroup {
+    font-size: 60px;
+    font-weight: 500;
+    height: 65px;
+    width: 65px;
+    color: #FFF;
+    border-radius: 50%;
+    background-color:#16008B;
+    border: none;
+    bottom: 10px;
+    left: 290px; 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 14;
+    border: none;
+
+    }
+  
+    .notesGroupSlected {
+      padding: 5% 3% 3% 3%;
+  
+      width: 100vw;
+      height: 2.375rem;
+    }
+  
+    .notesGroupSlected:active {
+      width: 97vw;
+    }
+  
+  }
+  
+  

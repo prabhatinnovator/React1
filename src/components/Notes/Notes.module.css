@@ -1,0 +1,163 @@
+body {
+    background-color:#ffff;
+  }
+  
+  .NotesName {
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-size:26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02581rem;
+  
+    /* space */
+    position: relative;
+    left: 3px;
+  }
+  
+  .NotesGroupHeading {
+    background: #001F8B;
+    width: 77vw;
+  height: 77px;
+  
+
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+}
+
+.NotesContent {
+  border-radius: 9px;
+  background:#DAE5F5;
+  width: 64vw;
+  height: 64vh;
+  overflow-y: scroll;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: fixed;
+  top: 77px;
+}
+
+.NotesEnter {
+  background-color:#001F8B;
+  height: 20vh;
+ border-radius: 9px;
+  /* center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0px;
+  width: 74vw;
+}
+
+.NotesInput {
+  color: #9a9a9a;
+  font-family: "Roboto",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 9px;
+  letter-spacing: 0.03725rem;
+  
+
+  max-width: 77vw;
+  max-height: 16vh;
+
+  min-width: 72vw;
+  min-height: 16vh;
+}
+
+.NotesInput::placeholder {
+  position: absolute;
+  top: 0px;
+}
+
+.NotesInputButton {
+  background-color: transparent;
+  border: 0px solid transparent;
+  position: absolute;
+  right: 3%;
+  bottom: 16%;
+}
+
+.time {
+  color: #353535;
+  font-family: "Roboto",sans-serif;
+  font-size: 12px;
+  margin-top: 99px;
+  width:90vw;
+  position:relative;
+  margin-left: 66vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.688%; /* 1.13775rem */
+  letter-spacing: 0.02331rem;
+}
+
+.date {
+  color: #353535;
+  font-family: "Roboto",sans-serif;
+  font-size: 12px;
+  margin-left: 58vw;
+  margin-right: 27vw;
+  width:190vw;
+  position: relative;
+  margin-top:-1.8vh;
+  align-items: end;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 98%; /* 1.13775rem */
+  letter-spacing: 0.02331rem;
+}
+
+.notes {
+  color: #000;
+  background-color: #ffff;
+  height: 160px;
+  font-family: "Roboto",sans-serif;
+  font-size: 1.125rem;
+  margin-left: -4vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.188%; /* 1.80213rem */
+  letter-spacing: 0.03938rem;
+}
+
+
+@media (max-width: 600px) {
+  .NotesGroupHeading,
+  .NotesContent,
+  .NotesEnter,.time,.date,.notes
+  {
+    width: 100vw;
+  }
+  .time{
+  
+    margin-top: 98px;
+    position: absolute;
+    margin-left: 328px;
+
+  }
+  .date{
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 228px;
+  }
+
+  .NotesInput {
+    max-width: 95vw;
+    min-width: 95vw;
+  }
+}
+@media (min-width: 600px) {
+.backButton{
+display: none;
+}
+}
